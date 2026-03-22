@@ -5,7 +5,7 @@ void main() {
 
     print((2 / 0).toInt());
 
-  } catch (err, stackStrace) { // Capturar uma falha
+  } catch (err) { // Capturar uma falha
 
     print("Error: $err");
     // rethrow; // Propagar o erro
