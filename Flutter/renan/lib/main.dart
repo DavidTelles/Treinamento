@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'David Home Page',
+      title: 'David Demo',
       theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.blueAccent),
+        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
       home: const MyHomePage(title: 'David Home Page'),
     );
@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const Text('You have pushed the button this many times:'),
+            const Text('Você pressionou o botão este número de vezes:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
